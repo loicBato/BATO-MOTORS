@@ -1,0 +1,114 @@
+.models-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; 
+    margin-left: 6vw;
+  margin-right: 6vw;
+
+}
+
+.models-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space-x-4 */
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+.models-logo {
+  height: 4rem; /* h-16 */
+  background-color: #ffffff; /* bg-white */
+  padding: 0.5rem; /* p-2 */
+  border-radius: 0.25rem; /* rounded */
+}
+
+.models-title {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 800; /* font-extrabold */
+  color: #ffffff; /* text-white */
+}
+
+.models-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* grid-cols-1 */
+  gap: 1.5rem; /* gap-6 */
+}
+
+@media (min-width: 768px) {
+  .models-grid {
+    grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .models-grid {
+    grid-template-columns: repeat(4, 1fr); /* lg:grid-cols-4 */
+  }
+}
+
+.model-card-link {
+  text-decoration: none;
+}
+
+.model-card {
+  background-color: #1f2937; /* bg-gray-800 */
+  padding: 1.5rem; /* p-6 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space-x-4 */
+  transition: background-color 0.3s; /* transition-colors duration-300 */
+}
+
+.model-card:hover {
+  background-color: #374151; /* hover:bg-gray-700 */
+}
+
+.model-icon {
+  width: 2.5rem; /* h-10 w-10 */
+  height: 2.5rem;
+  color: #60a5fa; /* text-blue-400 */
+}
+
+.model-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.model-name {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 700; /* font-bold */
+  color: #ffffff; /* text-white */
+}
+
+.model-description {
+  color: #9ca3af; /* text-gray-400 */
+}
+
+.models-empty {
+  background-color: #1f2937; /* bg-gray-800 */
+  padding: 2rem; /* p-8 */
+  border-radius: 0.5rem; /* rounded-lg */
+  text-align: center;
+}
+
+.models-empty-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+}
+
+.models-empty-description {
+  color: #9ca3af; /* text-gray-400 */
+  margin-top: 0.5rem; /* mt-2 */
+}
+
+.models-loading {
+  text-align: center;
+  font-size: 1.25rem; /* text-xl */
+}
+
+.models-error {
+  text-align: center;
+  font-size: 1.25rem; /* text-xl */
+  color: #ef4444; /* text-red-500 */
+}
