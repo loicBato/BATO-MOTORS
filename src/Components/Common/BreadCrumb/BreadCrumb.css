@@ -1,6 +1,6 @@
 .breadcrumb {
   display: flex;
-  margin-bottom: 1.5rem; /* Equivalent to mb-6 (24px at 1rem = 16px) */
+  margin-bottom: 0.5rem; /* Equivalent to mb-6 (24px at 1rem = 16px) */
 }
 
 .breadcrumb-list {
@@ -26,7 +26,7 @@
 
 .breadcrumb-link {
   color: #9ca3af; /* Gray-400 equivalent */
-  font-size: 0.875rem; /* Equivalent to text-sm */
+  font-size: 0.8rem; /* Equivalent to text-sm */
   font-weight: 500; /* Equivalent to font-medium */
   text-decoration: none;
 }
@@ -41,7 +41,7 @@
 
 .breadcrumb-current {
   color: #ffffff; /* White for current page */
-  font-size: 0.875rem; /* Equivalent to text-sm */
+  font-size: 0.8rem; /* Equivalent to text-sm */
   font-weight: 500; /* Equivalent to font-medium */
 }
 

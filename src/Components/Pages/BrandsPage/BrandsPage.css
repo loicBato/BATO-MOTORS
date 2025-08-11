@@ -1,9 +1,10 @@
 .brands-container {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem; 
-    margin-left: 6vw;
-  margin-right: 6vw;
+  gap: 0.5rem; 
+  margin-bottom: 6vw;
+    /* margin-left: 6vw;
+  margin-right: 6vw; */
 
 }
 
@@ -12,14 +13,14 @@
 }
 
 .brands-title {
-  font-size: 2.25rem; /* text-4xl */
+  font-size: 1.5rem; /* text-4xl */
   font-weight: 800; /* font-extrabold */
   color: #ffffff; /* text-white */
 }
 
 .brands-subtitle {
   margin-top: 1rem; /* mt-4 */
-  font-size: 1.125rem; /* text-lg */
+  font-size: 1.1rem; /* text-lg */
   color: #9ca3af; /* text-gray-400 */
 }
 
@@ -67,7 +68,7 @@
 
 .brand-name {
   text-align: center;
-  font-size: 1.25rem; /* text-xl */
+  font-size: 1.2rem; /* text-xl */
   font-weight: 700; /* font-bold */
   color: #ffffff; /* text-white */
 }
@@ -89,5 +90,36 @@
   }
   100% {
     background-color: #1f2937; /* bg-gray-800 */
+  }
+}
+
+
+
+
+/* Tablettes (≥768px) */
+@media (min-width: 768px) {
+  .brands-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .brands-container {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+}
+
+/* Ordinateurs portables (≥1024px) */
+@media (min-width: 1024px) {
+  .brands-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* Très grands écrans (≥1280px) */
+@media (min-width: 1280px) {
+  .brands-container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

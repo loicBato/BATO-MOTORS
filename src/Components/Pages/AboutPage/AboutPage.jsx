@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div className="about-container">
       <div className="about-header">
-        <h1 className="about-title">À Propos de AutoParts</h1>
+        <h1 className="about-title">À Propos de BatoMotors</h1>
         <p className="about-subtitle">Votre partenaire de confiance pour les pièces détachées automobiles.</p>
       </div>
 

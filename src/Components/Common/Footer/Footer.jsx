@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <Wrench className="footer-icon-logo" />
-              <span className="footer-title">AutoParts</span>
+              <span className="footer-title">BATO-MOTORS</span>
             </div>
             <p className="footer-description">
               Votre spécialiste en pièces détachées. Qualité, fiabilité et disponibilité au meilleur prix.
@@ -58,14 +58,14 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-heading">Horaires d'Ouverture</h3>
             <ul className="footer-list">
-              <li>Lundi - Vendredi: 8h00 - 19h00</li>
-              <li>Samedi: 9h00 - 15h00</li>
-              <li>Dimanche: Fermé</li>
+              <li className="footer-contact-item">Lundi - Vendredi: 8h00 - 19h00</li>
+              <li className="footer-contact-item">Samedi: 9h00 - 15h00</li>
+              <li className="footer-contact-item">Dimanche: Fermé</li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>By BATO LAB © {new Date().getFullYear()} AutoParts. Tous droits réservés.</p>
+          <p>By BATO LAB © {new Date().getFullYear()} Bato-Motors. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

@@ -3,9 +3,10 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  gap: 3rem; 
-    margin-left: 6vw;
-  margin-right: 6vw;
+  gap: 1rem; 
+    /* margin-left: 6vw;
+  margin-right: 6vw; */
+  margin-bottom: 6vw;
 
 }
 
@@ -14,36 +15,40 @@
 }
 
 .contact-title {
-  font-size: 2.25rem; /* text-4xl */
+  font-size: 1.5rem; /* text-4xl */
   font-weight: 700; /* font-bold */
   margin-bottom: 0.5rem; /* mb-2 */
 }
 
 .contact-subtitle {
-  font-size: 1.125rem; /* text-lg */
+  font-size: 1rem; /* text-lg */
   color: #9ca3af; /* text-gray-400 */
 }
 
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr; /* grid */
-  gap: 3rem; /* gap-12 */
+  gap: 2rem; /* gap-12 */
 }
 
 @media (min-width: 768px) {
   .contact-grid {
     grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
   }
+  .contact-container {
+     margin-left: 6vw;
+  margin-right: 6vw;
+  }
 }
 
 .contact-form-container {
   background-color: #1f2937; /* bg-gray-800 */
-  padding: 2rem; /* p-8 */
+  padding: 1rem; /* p-8 */
   border-radius: 0.5rem; /* rounded-lg */
 }
 
 .contact-section-title {
-  font-size: 1.5rem; /* text-2xl */
+  font-size: 1.2rem; /* text-2xl */
   font-weight: 700; /* font-bold */
   margin-bottom: 1.5rem; /* mb-6 */
 }
@@ -69,7 +74,7 @@
 .form-input,
 .form-textarea {
   margin-top: 0.25rem; /* mt-1 */
-  width: 100%; /* w-full */
+  /* width: 100%;  */
   background-color: #374151; /* bg-gray-700 */
   border: 1px solid #4b5563; /* border-gray-600 */
   border-radius: 0.375rem; /* rounded-md */
@@ -114,16 +119,16 @@
 .contact-info-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem; /* space-y-8 */
+  gap: 1rem; /* space-y-8 */
 }
 
 .contact-info {
   background-color: #1f2937; /* bg-gray-800 */
-  padding: 2rem; /* p-8 */
+  padding: 1rem; /* p-8 */
   border-radius: 0.5rem; /* rounded-lg */
   display: flex;
   flex-direction: column;
-  gap: 1rem; /* space-y-4 */
+  gap: 0rem; /* space-y-4 */
 }
 
 .contact-info-item {
@@ -134,8 +139,8 @@
 .contact-icon {
   margin-right: 0.75rem; /* mr-3 */
   color: #60a5fa; /* text-blue-400 */
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .contact-map {

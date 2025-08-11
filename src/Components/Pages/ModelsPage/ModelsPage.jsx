@@ -44,7 +44,7 @@ const ModelsPage = () => {
         <h1 className="models-title">Modèles {brand.name}</h1>
       </div>
 
-      {brand.models.length > 0 ? (
+      {brand?.models?.length > 0 ? (
         <div className="models-grid">
           {brand.models.map(model => (
             <Link key={model.id} to={`/brands/${brand.id}/models/${model.id}`} className="model-card-link">

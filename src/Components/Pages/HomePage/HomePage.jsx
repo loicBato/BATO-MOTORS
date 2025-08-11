@@ -5,6 +5,8 @@ import './HomePage.css';
 import { getBrands } from '../../Services/dataService';
 import image from '../../../assets/image.jpeg';
 
+// 🔧
+
 const Hero = () => (
   <div className="hero-container">
     <div className="hero-image-wrapper">
@@ -15,10 +17,10 @@ const Hero = () => (
             Trouvez la bonne pièce, pour le bon véhicule, au bon moment.
           </h1>
           <p className="hero-description">
-            Spécialistes des pièces détachées depuis plus de 10 ans, nous vous proposons un vaste catalogue de pièces pour toutes les marques de véhicules. Notre mission ? Vous garantir qualité, fiabilité et disponibilité.
+            Spécialistes des pièces détachées au Togo, nous vous proposons un vaste catalogue de pièces pour toutes les marques de véhicules. Notre mission ? Vous garantir qualité, fiabilité et disponibilité.
           </p>
           <Link to="/brands" className="hero-button">
-            Explorer nos pièces 🔧
+            Explorer nos pièces 
           </Link>
         </div>
       </div>
